@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-top: 100px;
+}
+
+.group-members h2 {
+    margin: 40px 0;
+}
+
+.member-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.member-item {
+    width: 300px;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 200px
+}
+
+.member-item p {
+    margin-top: 75px;
+}
+
+.member-image {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px; /* Center the image and add margin below */
+    display: block; /* Needed to apply margin auto for centering */
+}
